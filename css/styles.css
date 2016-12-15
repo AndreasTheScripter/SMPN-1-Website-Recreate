@@ -3,8 +3,8 @@
 * { margin: 0; padding: 0; }
 body { font-family: Montserrat, sans-serif; font-size: 15px; font-weight: normal; }
 
-header { height: auto; background-color: #ccc; }
-#navbar { width: 100%; padding: 5px 0px; background-color: #0093dd; overflow: hidden; position: fixed; }
+header { height: 550px; background-color: #ccc; display: block; }
+#navbar { z-index: 1; width: 100%; padding: 5px 0px; background-color: #0093dd; overflow: hidden; position: fixed; }
 #navbar ul { list-style: none; float: left; }
 #navbar, .wrapper { display: flex; flex-direction: row;  align-items: center; }
 #navbar ul li { display: inline-block; }
@@ -18,5 +18,10 @@ header { height: auto; background-color: #ccc; }
 .searchbar_button img {background-repeat: no-repeat; background-position: center; width: 90%; height: 90% }
 .wrapper { width: 1210px; margin: 0 auto; }
 
-#slideshow { padding-top: 93px; overflow: hidden; }
-#slideshow img { width: 100%; height: auto; background-repeat: no-repeat; background-size: cover; }
+#slideshow { padding-top: 93px; position: absolute; width: 100%; }
+#slideshow img { width: 100%;  height: auto; background-repeat: no-repeat; background-size: cover; }
+
+.container-caption { position: absolute; left: 50%; top: 50%; }
+.container-caption h2 { position: relative; left: -50%; color: #fff; padding: 15px 15px; font-size: 60px; border: 6px solid #fff; left: -50%; bottom: 50%; text-shadow: 3px 3px 6px #000000; box-shadow: 0 0 10px #000000; }
+.container-desc { position: absolute; left: 50%; top: 75%; }
+.container-desc p { border-radius: 5px; position: relative; left: -50%; color: #fff; padding: 10px 20px; background-color : rgba(248, 195, 1, .5); width: 600px; font-size: 15px; text-align: center; left: -50%; text-shadow: 2px 2px 3px #000000; }
