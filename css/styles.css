@@ -67,7 +67,7 @@ main { width: 100% height: auto; }
 
 .principals-welcome { max-width: 80%; margin: 0 auto; }
 .principals-welcome h2 { text-align: center; }
-.principals-welcome-dialog { border: 2px solid #000; padding: 20px; height: 90px; overflow: hidden; transition: all ease 0.75s; }
+.principals-welcome-dialog { border: 2px solid #000; padding: 20px; height: 110px; overflow: hidden; transition: all ease 0.75s; }
 .principals-welcome p { text-align: justify; }
 .principals-welcome p span.firstLetter { float: left; font-size: 60px; line-height : 0.5; margin: 0.205em 0.153em 0 0; }
 .principals-welcome-quotes { max-width: 85%; margin: 0 auto; }
