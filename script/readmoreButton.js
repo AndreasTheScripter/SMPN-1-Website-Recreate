@@ -5,7 +5,7 @@ $(document).ready(function() {
 		$(this).data('expanded', !val);
 		$(this).html(val ? "Tampilkan" : "Tutup");
 		$("section.principals-welcome-dialog", $(this).closest('section.principals-welcome')).animate({
-			height: val ? '110' : "640"
+			height: val ? '90' : "600"
 		});
 	});
 });
