@@ -1,2 +1,1 @@
-# DESCRIPTIONS
-Websites SMK N 1 Cibadak (RE-CREATE)
+# SMPN 1 Cibadak
